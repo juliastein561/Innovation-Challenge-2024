@@ -32,21 +32,16 @@ public class BusinessTester {
 
         // Call the addSupplyTables method
         //supplyTable.addSupplyTables(supplyTables);
-        System.out.print("""
-                                        \s
-                ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣤⡀⠀⠀⠀                                                                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀        ⢀⣠⣤⣤⡀⠀⠀⠀
-                ⠀⠀⠀⢀⣤⠀⢤⣀⣀⣀⣀⣴⠀⣶⣦⣤⣤⣤⣶⠀⣾⣿⣿⣿⣿⡿⠁⠀⠀⠀                                                                                                         ⠀ ⠀⢀⣤⠀⢤⣀⣀⣀⣀⣴⠀⣶⣦⣤⣤⣤⣶⠀⣾⣿⣿⣿⣿⡿⠁⠀⠀⠀
-                ⠀⠘⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⡇⢰⣿⣿⣿⣿⡿⠁⠀ __    __     ______     __   __     ______     __  __        ______   ______     ______     __     __        ⠘⣿⣿⣿⡇⢸⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⡇⢰⣿⣿⣿⣿⡿⠁⠀\s
-                ⠀⠀⢹⣿⣿⣷⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⡇⣼⣿⣿⣿⣿⠃⠀ /\\ "-./  \\   /\\  __ \\   /\\ "-.\\ \\   /\\  ___\\   /\\ \\_\\ \\      /\\__  _\\ /\\  == \\   /\\  __ \\   /\\ \\   /\\ \\        ⢹⣿⣿⣷⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⡇⣼⣿⣿⣿⣿⠃
-                ⠀⠀⠀⣿⣿⣿⠀⢿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠃⣿⣿⣿⣿⡏⠀⠀ \\ \\ \\-./\\ \\  \\ \\ \\_\\ \\  \\ \\ \\-.  \\  \\ \\  __\\   \\ \\____ \\     \\/_/\\ \\/ \\ \\  __<   \\ \\  __ \\  \\ \\ \\  \\ \\ \\____  ⠀ ⣿⣿⣿⠀⢿⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠃⣿⣿⣿⣿⡏⠀⠀\s
-                ⠀⠀⠀⣿⣿⣿⡄⢸⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⠁⠀⠀⠀ \\ \\_\\ \\ \\_\\  \\ \\_____\\  \\ \\_\\\\"\\_\\  \\ \\_____\\  \\/\\_____\\       \\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\ \\_\\  \\ \\_\\  \\ \\_____\\ ⠀ ⣿⣿⣿⡄⢸⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⠁⠀
-                ⠀⠀⠀⣿⣿⣿⡇⢸⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⠀⣶⠀⠀⠀ \\/_/  \\/_/   \\/_____/   \\/_/ \\/_/   \\/_____/   \\/_____/        \\/_/   \\/_/ /_/   \\/_/\\/_/   \\/_/   \\/_____/   ⣿⣿⣿⡇⢸⣿⣿⣿⣿⠀⣿⣿⣿⣿⣿⠀⣿⣿⣿⣿⠀⣶⠀
-                ⠀⠀⠘⠛⠛⠛⠃⠘⠛⠛⠛⠛⠀⠛⠛⠛⠛⠛⠀⠛⠛⠛⠛⠀⠛⠛⢿⠀⠀⠀                                                                                                           ⠘⠛⠛⠛⠃⠘⠛⠛⠛⠛⠀⠛⠛⠛⠛⠛⠀⠛⠛⠛⠛ ⠛⠛⢿⠀⠀⠀
-                ⠀⠀⣿⠏⡀⠲⡇⢸⠖⢀⠙⣿⣿⣿⡟⢁⠐⢾⠀⠗⢀⠙⢿⣿⣿⣧⣤⣤⡄⠀                                                                                                         ⠀ ⣿⠏⡀⠲⡇⢸⠖⢀⠙⣿⣿⣿⡟⢁⠐⢾⠀⠗⢀⠙⢿⣿⣿⣧⣤⣤⡄⠀
-                ⠀⠀⠋⠀⠛⠂⠀⠀⠐⠛⠀⠘⠛⠛⠀⠚⠓⠀⠀⠀⠛⠃⠘⠛⠛⠁⠀⠀⠀⠀            Created by: Julia Stein and Aiden Spoerndle, with the help of Dr. Sims Osborne.                ⠋⠀⠛⠂⠀⠀⠐⠛⠀⠘⠛⠛⠀⠚⠓⠀⠀⠀⠛⠃⠘⠛⠛⠁⠀⠀⠀⠀
-                ⠀⠀⠀⠀⠛⢁⡄⢰⣌⠛⠀⠀⠀⠀⠀⠙⢁⣤⠀⣄⠙⠁⠀⠀⠀⠀⠀⠀⠀ ⠀     --------------------------------------------------------------------------------------------           ⠛⢁⡄⢰⣌⠛⠀⠀⠀⠀⠀⠙⢁⣤⠀⣄⠙⠁⠀⠀⠀⠀⠀⠀⠀⠀
-                ⠀⠀⠀⠀⠀⠀⠁⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                                                                               ⠁⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                """);
+        System.out.println("\n" +
+                "  ______             _______        _ _ \n" +
+                " |  ____|           |__   __|      (_) |\n" +
+                " | |__   ___ ___  _ __ | |_ __ __ _ _| |\n" +
+                " |  __| / __/ _ \\| '_ \\| | '__/ _` | | |\n" +
+                " | |___| (_| (_) | | | | | | | (_| | | |\n" +
+                " |______\\___\\___/|_| |_|_|_|  \\__,_|_|_|\n" +
+                "                                        ");
+        System.out.println("Created by Julia Stein and Aiden Spoerndle,\n" +
+                "Under the guidance of Dr. Sims Osborne.");
         System.out.println();
         System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
 
@@ -166,7 +161,6 @@ public class BusinessTester {
                 System.out.println("End of Game. Thank you for playing.");
             }
             if (randDouble > 0.75){
-                System.out.println();
                 System.out.println("Hit return to keep playing: ");
                 String input = scnr.nextLine();
                 if (input.isEmpty()){
@@ -184,12 +178,48 @@ public class BusinessTester {
         Event manufacturingPriceIncreases = new Event("ManufacturingPrice Increases", "sD", "");
         Event manufacturingPriceDecreases = new Event("ManufacturingPrice Decreases", "sI", "");
         Event restrictionsOnWorkEnvironment = new Event("restrictionsOnWorkEnvironment", "sD", "");
+        Event oilPriceSurge = new Event("Oil Price Surge", "sD", "");
+        Event technologicalBreakthrough = new Event("Technological Breakthrough", "sI", "");
+        Event governmentTaxCuts = new Event("Government Tax Cuts", "", "dI");
+        Event globalPandemicOutbreak = new Event("Global Pandemic Outbreak", "sD", "dD");
+        Event consumerIncomeRises = new Event("Consumer Income Rises", "", "dD");
+        Event naturalDisasterStrikes = new Event("Natural Disaster Strikes", "sD", "");
+        Event newSubstituteProductIntroduced = new Event("New Substitute Product Introduced", "sI", "");
+        Event laborUnionStrike = new Event("Labor Union Strike", "sD", "");
+        Event interestRatesDecrease = new Event("Interest Rates Decrease", "", "dI");
+        Event consumerConfidencePlummets = new Event("Consumer Confidence Plummets", "", "dD");
+        Event supplyChainOptimization = new Event("Supply Chain Optimization", "sI", "");
+        Event governmentRegulationsIncrease = new Event("Government Regulations Increase", "sD", "");
+        Event breakthroughInRenewableEnergy = new Event("Breakthrough in Renewable Energy", "sI", "");
+        Event suddenBankingCrisis = new Event("Sudden Banking Crisis", "", "dD");
 
         Events.add(inflationRises);
         Events.add(inflationFalls);
         Events.add(manufacturingPriceIncreases);
         Events.add(manufacturingPriceDecreases);
         Events.add(restrictionsOnWorkEnvironment);
+        Events.add(oilPriceSurge);
+        Events.add(technologicalBreakthrough);
+        Events.add(governmentTaxCuts);
+        Events.add(globalPandemicOutbreak);
+        Events.add(consumerIncomeRises);
+        Events.add(naturalDisasterStrikes);
+        Events.add(newSubstituteProductIntroduced);
+        Events.add(laborUnionStrike);
+        Events.add(interestRatesDecrease);
+        Events.add(consumerConfidencePlummets);
+        Events.add(supplyChainOptimization);
+        Events.add(governmentRegulationsIncrease);
+        Events.add(breakthroughInRenewableEnergy);
+        Events.add(suddenBankingCrisis);
+
+
+
+
+
+
+
+
         return Events;
     }
 }
