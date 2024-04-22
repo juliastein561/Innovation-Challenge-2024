@@ -26,9 +26,7 @@ public class BusinessTester {
         supplyTables.add(supplyList5);
         supplyTables.add(supplyList6);
 
-
         ArrayList<Event> Events = getEvents(); // events defined at bottom
-
 
         // Call the addSupplyTables method
         //supplyTable.addSupplyTables(supplyTables);
@@ -140,7 +138,6 @@ public class BusinessTester {
                     } else {
                         totalCost /= effect;
                     }
-
                     totalMoney -= totalCost;
                 }
                 comparator = supplyShift.isEmpty();
@@ -212,13 +209,6 @@ public class BusinessTester {
         Events.add(governmentRegulationsIncrease);
         Events.add(breakthroughInRenewableEnergy);
         Events.add(suddenBankingCrisis);
-
-
-
-
-
-
-
 
         return Events;
     }
