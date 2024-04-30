@@ -155,7 +155,7 @@ public class BusinessTester {
             }
             if (i == gameLength) {
                 System.out.println("You have reached the end of the game. Your total profit was " + totalMoney);
-                System.out.println("End of Game. Thank you for playing.");
+                System.out.println("Thank you for playing.");
             }
             if (randDouble > 0.75){
                 System.out.println("Hit return to keep playing: ");
